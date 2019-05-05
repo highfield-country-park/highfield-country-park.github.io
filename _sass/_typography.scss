@@ -1,0 +1,49 @@
+
+@import "variables.scss";
+
+p, .body-content, .eyebrow, article li, article {
+  font-family: $font-family-serif;
+  color:$colour_second_light;
+  line-height: 1.7em;
+  letter-spacing: 0.05px;
+}
+
+h1.title {
+  text-align:center;
+  bottom:0;
+  color:$colour_white;
+  font-weight: $font_weight_bold;
+}
+
+h2 {
+  color:$colour_second;
+}
+article header h3 {
+  color:$colour_main;
+  text-shadow:0px 0px 1px $gray-lighter;
+}
+
+article.teaser header {
+  color:$colour_main;
+}
+
+.call-to-action {
+  display:block;
+  color:$colour_white;
+  text-align:center;
+  padding-bottom: $padding_cta_bottom;
+}
+footer {
+  @extend small;
+}
+
+.eyebrow label {
+  color:$colour_main;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
