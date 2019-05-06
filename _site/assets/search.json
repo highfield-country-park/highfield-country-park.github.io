@@ -7,8 +7,8 @@
     
       {
         "title": "Hello World",
-        "excerpt": "This is my very first blog post. I haven’t written anything yet but I’m sure I have some great stories to tell.\n",
-        "content": "This is my very first blog post. I haven’t written anything yet but I’m sure I have some great stories to tell.\n",
+        "excerpt": "This is my very first blog post. I haven’t written anything yet but I’m sure I have some great stories to tell.\n\n",
+        "content": "This is my very first blog post. I haven’t written anything yet but I’m sure I have some great stories to tell.\n\nTesting?\n\nsddfd\n",
         "url": "/general/2018/08/22/hello-world/"
       },
     
@@ -16,9 +16,9 @@
   
   
   {
-    "title": "About this website",
+    "title": "About",
     "excerpt": "\n",
-    "content": "I’m not sure yet what this website is about, but I’m sure I’ll work it out soon.\n",
+    "content": "Highfield Country Park is a 70-acre (280,000 m2) area of open land, situated on the east side of Levenshulme, Manchester, that stretches to the east of Broom Avenue across to the rear of Reddish Golf Course and to the junction of Longford Road, Reddish and Nelstrop Road, Levenshulme.\n\nPrior to 2004, the park was jointly maintained by Manchester City Council and a group of volunteers called The Friends of Highfield Park. In July 2004 the park came to the attention of the Prudential Grass Roots campaign (run by the BTCV conservation charity). Over a 12-month period the park was transformed from a dreary, vandalised wasteland into a country park with a picnic area and mapped out country walks.\n\nIn 2008 Highfield Country Park was designated a Local Nature Reserve, providing a protected habitat for many animal and plant species.\n\nHistory\n\nThe land was used to extract clay for the manufacture of bricks for the building industry. The clay pit and brickworks existed at the start of the 20th century, and by the 1950s was being operated by the Jackson Brick Company.\n\nIn the 1970s, it was designated as a country park by the council, but at the time it was little more than a landfill site and sometime site of the UCP tripe factory, Levenshulme Dye and Bleach works, High Field Farm, and Jackson's brickworks. The latter's clay pit was much used by local children as a play area known as \"The Brickie\".\n\nThe main road between Manchester and Stockport used to travel right next to the park, down Nelstrop Road. This road is hundreds of years old now. \n\nUntil recently, people used to live on the site of Highfield Country Park. However, the house on Nelstrop Road eventually was left abandoned, and was damaged by vandals that meant it had to be torn down for safety reasons.\n\nIn 2017, plans for redeveloping an area of Highfield Country Park were passed by Manchester Council. Friends of Highfield Country Park objected to this decision but were overruled.\n\n\nWatch a lovely video recording of the park in Summer 2018:\n\n\n",
     "url": "/about/"
   },
   
@@ -41,6 +41,20 @@
     "excerpt": "\n",
     "content": "There isn’t much going on here yet, but watch this space\n",
     "url": "/"
+  },
+  
+  {
+    "title": "Map",
+    "excerpt": "\n",
+    "content": "Finding Highfield Country Park\n\nTransport\n\nThere are many transport links to Highfield Country Park, with short walks to regular bus and train services, and on a dedicated walking and cycling route\n\nWalking / Cycling\n\nHighfield Country Park connects right onto the Fallowfield Loop and is part of the national cycle network routes 6 and 60. You can cycle or walk from Chorlton, Whalley Range, Fallowfield, and Gorton.\n\nTrain\n\nLevenshulme Train Station is about 10 minutes walk from Highfield Country Park, with regular train services from Manchester Picadilly and Stockport, and direct connections to Crewe, Wilmslow and Blackpool.\n\nBus\n\nThe bus services to Levenshulme from Manchester and Stockport go up to 20 times an hour, and is one of the busiest bus routes in Europe. Other bus connections include the 197 and 168.\n\nCar\n\nThere are no dedicated car parks by Highfield Country Park, but many of the side streets have parking. Please be aware these are primarily for residents though! Tesco's in the centre of Levenshulme does have parking, which is about ten minutes walk from the park. The Tesco postcode is M19 3NN.\n\n\n\n\n\n",
+    "url": "/map/"
+  },
+  
+  {
+    "title": "About",
+    "excerpt": "\n",
+    "content": "Friends of Highfield Country Park are looking to create regular volunteering sessions. There are committed individuals who are already helping on their own, but we would like to organise times for people to help out together to create a more social and communal activities! There are lots of ways that you can help:\n\n    - bulb planting\n    - litter picking\n    - weeding\n    - building bird boxes\n    - maintaining the paths\n    - writing content for the website\n    - helping with social media\n    - starting projects and applying for funding \n  \nWe are currently meeting on the last Tuesday of every month at 10.30am. We sometimes run other sessions, currently we have one planned on 23rd March 2019. See the news page for details.\n\nFor info about the volunteering, please contact Alec on 0161 483 2671, or you can email us at highfieldcountrypark@gmail.com\n\nThere are also many admin jobs you can help with, for example, setting up and maintaining a shared files repository (like Google Docs), fundraising, running events, and publicity... so if you have a desire to help then fill in the form below! You can also join us for meetings every two months to get involved and talk to other members. Experience, skills and talent are optional!\n\n\n\n\n  Loading...\n\n",
+    "url": "/volunteer/"
   }
   
 ]
