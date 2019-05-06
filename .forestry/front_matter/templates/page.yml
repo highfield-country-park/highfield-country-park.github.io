@@ -5,7 +5,7 @@ fields:
 - type: text
   name: title
   label: Title
-  description: The title of the sermon
+  description: A brief description
   config:
     required: true
 - type: file

@@ -1,93 +1,11 @@
 
-<!DOCTYPE HTML>
-<html lang="en">
-<head>
-<title>Highfield Country Park - How to Find the Park</title>
-
-<!-- favicon -->
-<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
-
-<!-- Fonts -->
-<link href="https://fonts.googleapis.com/css?family=Merriweather:400,700" rel="stylesheet">
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet'>
-
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-
-<!-- compiled styles with bootstrap, font awesome and custom styles -->
-<link href="/assets/styles.css" rel="stylesheet">
-
-</head>
-<!-- end of partials header -->
-
+{% include header.html %}
 <body>
 
 
     <header>
 
-    <!-- partials home-nav -->
-<div class="intro-content">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="column col-xs-6 col-xs-portrait-12 col-md-7 home-feature chimney-image">
-        <div class="title-container-outer">
-          <div class="title-container">
-            <h1 class="title"><i class="fa fa-leaf"></i> Highfield Country Park</h1>
-          </div>
-        </div>
-      </div>
-      <div class="column grid-gallery col-xs-6 col-xs-portrait-12 col-md-5">
-        <div class="row">
-          <nav class="grid-nav">
-            <div class="col-xs-6">
-              <div class="path1-image grid-square">
-                <a href="news-and-events.html"><span>News</span></a>
-              </div>
-            </div>
-            <div class="col-xs-6">
-              <div class="path2-image grid-square">
-                <a href="about.html"><span>About</span></a>
-              </div>
-            </div>
-            <div class="col-xs-6">
-              <div class="path3-image grid-square">
-                  <a href="map.html"><span>Map</span></a>
-              </div>
-            </div>
-            <div class="col-xs-6">
-              <div class="path4-image grid-square">
-                <a href="volunteer.html"><span>Volunteer</span></a>
-              </div>
-            </div>
-          </nav>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <!--
-        disabled: include CTA
-      -->
-    </div>
-  </div>
-</div>
-<!-- end of partials home-nav  -->
-
+    {% include home-nav.html %}
     </header>
     <main>
       <div class="text-content-outer-container">
@@ -95,20 +13,7 @@
           <div class="row">
             <div class="col-xs-12">
               <div class="intro-about">
-                <h2>What is Highfield Country Park?</h2>
-<p>
-  Highfield Country Park is a 70-acre (280,000 m2) area of open land, situated on the east side of Levenshulme, Manchester, that stretches to the east of Broom Avenue across to the rear of Reddish Golf Course and to the junction of Longford Road, Reddish and Nelstrop Road, Levenshulme.
-</p>
-<p>
-  Much of Highfield Country Park is not manicured, nature has some freedom to take it's own course. Although it is does not seem too large, if you take one of the many small paths you may suddenly find yourself wondering whether you are still in Manchester... in much of it, you can only see the trees and long grass. The roads and buildings are often hidden from view.
-<div class="eyebrow">
-  <ul>
-    <li><a href="map.html"> Finding Highfield Country Park</a></li>
-    <li><a href="about.html"> More about the state and history of the park</a></li>
-  </ul>
-</div>
-</p>
-
+                {{ content }}
               </div>
             </div>
             <div class="col-xs-12 col-md-6">
