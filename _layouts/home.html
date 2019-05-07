@@ -23,6 +23,15 @@
 
                 <p>If you have a story to suggest, please fill out our <a href="https://goo.gl/forms/FBUFHyFhVACWiQlp2">Google form</a></p>
 
+                {% for post in site.categories['News'] limit:5 %}
+                  <article class="teaser">
+                    <header><h4>{{ post.title }}</h4></header>
+                    <p class="body-content">{{ post.excerpt }}</p>
+                    <p class="body-content"><a href="news-and-events.html#content-volunteer-2019">Read more</a></p>
+                  </article>
+                {% endfor %}
+
+
                 <article class="teaser">
                   <header><h4>Volunteer Content Writer Wanted!</h4></header>
                   <p class="body-content">We are looking for local volunteers to come forward and support the park and this website by helping to write articles and take photos. <a href="news-and-events.html#content-volunteer-2019">Read more</a></p>
@@ -86,6 +95,18 @@
                     <span class="eyebrow"><label>Contact:</label> CONTACT</span>
                   </article>
                 -->
+
+                {% for post in site.categories['Event'] limit:5 %}
+                  <article class="teaser">
+                    <header><h4>{{ post.title }}</h4></header>
+                    <p class="body-content">{{ post.excerpt }}</p>
+                    <span class="eyebrow"><label>Location:</label> <a href="https://www.openstreetmap.org/search?query=">{{ post.location }} </a></span>
+                    <span class="eyebrow"><label>Time:</label> {{ post.time }} </span>
+                    <span class="eyebrow"><label>Date:</label> DATE</span>
+                    <span class="eyebrow"><label>Contact:</label> CONTACT</span>
+                    <p class="body-content"><a href="news-and-events.html#content-volunteer-2019">Read more</a></p>
+                  </article>
+                {% endfor %}
 
                 <article class="teaser">
                   <header><h4>Join Our First Volunteering Saturday Session</h4></header>

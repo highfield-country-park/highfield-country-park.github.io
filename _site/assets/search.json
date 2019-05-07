@@ -12,6 +12,20 @@
         "url": "/general/2018/08/22/hello-world/"
       },
     
+      {
+        "title": "News Post",
+        "excerpt": "An introduction to this Post\n",
+        "content": "This is some news\n",
+        "url": "/news/2019/01/01/news-post/"
+      },
+    
+      {
+        "title": "Event Post",
+        "excerpt": "An introduction to this event\n",
+        "content": "This is an event\n",
+        "url": "/event/2019/02/01/news-post/"
+      },
+    
   
   
   
