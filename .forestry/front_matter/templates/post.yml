@@ -8,36 +8,6 @@ fields:
   description: The title
   config:
     required: true
-- type: text
-  name: excerpt
-  label: Excerpt
-  description: A short summary of the post
-  config:
-    required: true
-- type: field_group
-  name: event
-  label: Event Info
-  description: Add the location, date and time for the event
-  hidden: false
-  fields:
-  - type: datetime
-    name: datetime
-    label: Date & Time of Event
-    description: The date of the event (if its an event)
-  - type: text
-    name: location
-    label: Location of Event
-    description: The location of the event (if its an event)
-- type: file
-  name: feature_image
-  label: Feature image - shown below post
-- type: textarea
-  name: feature_text
-  label: Feature text
-  config:
-    wysiwyg: true
-    schema:
-      format: markdown
 - type: select
   name: categories
   label: Categories
@@ -54,5 +24,26 @@ fields:
   label: Tags
   description: Provide tags for this post
   hidden: [false]
+- type: field_group
+  name: event
+  label: Event Info
+  description: Add the location, date and time for the event
+  hidden: false
+  fields:
+  - type: datetime
+    name: datetime
+    label: Date & Time of Event
+    description: The date of the event (if its an event)
+  - type: text
+    name: location
+    label: Location of Event
+    description: The location of the event (if its an event)
+- type: textarea
+  name: feature_text
+  label: Feature text
+  config:
+    wysiwyg: false
+    schema:
+      format: markdown
 pages:
 - _posts/2018-08-22-hello-world.md
