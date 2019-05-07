@@ -17,13 +17,14 @@ fields:
     source:
       type: custom
     options:
-        - "Event"
-        - "News"
+    - Event
+    - News
 - type: tag_list
   name: tags
   label: Tags
   description: Provide tags for this post
-  hidden: [false]
+  hidden:
+  - false
 - type: datetime
   name: event_datetime
   label: Date & Time of Event
