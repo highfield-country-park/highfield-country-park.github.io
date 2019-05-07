@@ -26,7 +26,7 @@
                 {% for post in site.categories['News'] limit:5 %}
                   <article class="teaser">
                     <header><h4>{{ post.title }}</h4></header>
-                    <p class="body-content">{{ post.excerpt }}</p>
+                    <p class="body-content">{{ post.feature_text }}</p>
                     <p class="body-content"><a href="news-and-events.html#content-volunteer-2019">Read more</a></p>
                   </article>
                 {% endfor %}
@@ -99,7 +99,7 @@
                 {% for post in site.categories['Event'] limit:5 %}
                   <article class="teaser">
                     <header><h4>{{ post.title }}</h4></header>
-                    <p class="body-content">{{ post.excerpt }}</p>
+                    <p class="body-content">{{ post.feature_text }}</p>
                     <span class="eyebrow"><label>Location:</label> <a href="https://www.openstreetmap.org/search?query=">{{ post.location }} </a></span>
                     <span class="eyebrow"><label>Time:</label> {{ post.time }} </span>
                     <span class="eyebrow"><label>Date:</label> DATE</span>
