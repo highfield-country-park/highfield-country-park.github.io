@@ -36,10 +36,16 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
-- type: category_list
+- type: select
   name: categories
   label: Categories
   description: Add a category
+  config:
+    source:
+      type: custom
+    options:
+        - "Event"
+        - "News"
 - type: boolean
   name: aside
   label: Aside
