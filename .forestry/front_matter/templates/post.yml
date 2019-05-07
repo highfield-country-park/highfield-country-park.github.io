@@ -14,14 +14,10 @@ fields:
   description: A short summary of the post
   config:
     required: true
-- type: text
-  name: date
-  label: Date of Event
+- type: datetime
+  name: datetime
+  label: Date & Time of Event
   description: The date of the event (if its an event)
-- type: text
-  name: time
-  label: Time of Event
-  description: The time of the event (if its an event)
 - type: text
   name: location
   label: Location of Event
