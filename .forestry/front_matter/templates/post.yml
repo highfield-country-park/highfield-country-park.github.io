@@ -39,20 +39,18 @@ fields:
 - type: select
   name: categories
   label: Categories
-  description: Add a category
+  description: Select a category
   config:
+    required: true
     source:
       type: custom
     options:
         - "Event"
         - "News"
-- type: boolean
-  name: aside
-  label: Aside
-  description: Show the sidebar / aside
-- type: boolean
-  name: comments
-  label: Comments
-  description: Turn off comments (make sure to configure comments in _config.yml)
+- type: tag_list
+  name: tags
+  label: Tags
+  description: Provide tags for this post
+  hidden: [false]
 pages:
 - _posts/2018-08-22-hello-world.md
