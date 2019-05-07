@@ -14,14 +14,20 @@ fields:
   description: A short summary of the post
   config:
     required: true
-- type: datetime
-  name: datetime
-  label: Date & Time of Event
-  description: The date of the event (if its an event)
-- type: text
-  name: location
-  label: Location of Event
-  description: The location of the event (if its an event)
+- type: field_group_list
+  name: authors
+  label: Authors
+  description: The authors of this post
+  hidden: false
+  fields:
+  - type: datetime
+    name: datetime
+    label: Date & Time of Event
+    description: The date of the event (if its an event)
+  - type: text
+    name: location
+    label: Location of Event
+    description: The location of the event (if its an event)
 - type: file
   name: feature_image
   label: Feature image
