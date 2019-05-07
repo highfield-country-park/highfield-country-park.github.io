@@ -5,9 +5,19 @@ fields:
 - type: text
   name: title
   label: Title
-  description: The title of the sermon
+  description: The title
   config:
     required: true
+- type: text
+  name: excerpt
+  label: Excerpt
+  description: A short summary of the post
+  config:
+    required: true
+- type: date
+  name: date
+  label: Title
+  description: The date of the event (if its an event)
 - type: file
   name: feature_image
   label: Feature image
