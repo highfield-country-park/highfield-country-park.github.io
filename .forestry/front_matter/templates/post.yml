@@ -24,20 +24,14 @@ fields:
   label: Tags
   description: Provide tags for this post
   hidden: [false]
-- type: field_group
-  name: event
-  label: Event Info
-  description: Add the location, date and time for the event
-  hidden: false
-  fields:
-  - type: datetime
-    name: datetime
-    label: Date & Time of Event
-    description: The date of the event (if its an event)
-  - type: text
-    name: location
-    label: Location of Event
-    description: The location of the event (if its an event)
+- type: datetime
+  name: event_datetime
+  label: Date & Time of Event
+  description: The date of the event (if its an event)
+- type: text
+  name: event_location
+  label: Location of Event
+  description: The location of the event (if its an event)
 - type: textarea
   name: feature_text
   label: Feature text

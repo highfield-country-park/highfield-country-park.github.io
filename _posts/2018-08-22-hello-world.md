@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Hello World
-categories:
-- General
+title: Hello World Event
+category: Event
 feature_image: https://picsum.photos/2560/600?image=872
 feature_text: ''
 aside: false

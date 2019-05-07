@@ -6,24 +6,38 @@
     
     
       {
-        "title": "Hello World",
+        "title": "Hello World Event",
         "excerpt": "This is my very first blog post. I haven’t written anything yet but I’m sure I have some great stories to tell.\n\n",
         "content": "This is my very first blog post. I haven’t written anything yet but I’m sure I have some great stories to tell.\n\nTesting?\n\nsddfd\n",
-        "url": "/general/2018/08/22/hello-world/"
+        "url": "/event/2018/08/22/hello-world/"
       },
     
       {
         "title": "News Post",
-        "excerpt": "An introduction to this Post\n",
+        "excerpt": "This is some news\n",
         "content": "This is some news\n",
         "url": "/news/2019/01/01/news-post/"
       },
     
       {
-        "title": "Event Post",
-        "excerpt": "An introduction to this event\n",
-        "content": "This is an event\n",
-        "url": "/event/2019/02/01/news-post/"
+        "title": "Old Event Post",
+        "excerpt": "A short summary of something\n",
+        "content": "Strangest clams show us how radishes can be laborers. Some beaten cinemas are thought of simply as craftsmen. In ancient times an untrimmed patch is a trip of the mind. This is not to discredit the idea that the mine of a fiber becomes a mantic sailboat.\n\n\n",
+        "url": "/event/2019/01/01/event-post/"
+      },
+    
+      {
+        "title": "Mid Event Post",
+        "excerpt": "A short summary of something\n",
+        "content": "Strangest clams show us how radishes can be laborers. Some beaten cinemas are thought of simply as craftsmen. In ancient times an untrimmed patch is a trip of the mind. This is not to discredit the idea that the mine of a fiber becomes a mantic sailboat.\n\n\n",
+        "url": "/event/2019/03/03/mid-event-post/"
+      },
+    
+      {
+        "title": "New Event Post",
+        "excerpt": "A short summary of something\n",
+        "content": "Strangest clams show us how radishes can be laborers. Some beaten cinemas are thought of simply as craftsmen. In ancient times an untrimmed patch is a trip of the mind. This is not to discredit the idea that the mine of a fiber becomes a mantic sailboat.\n\n\n",
+        "url": "/event/2019/05/05/new-event-post/"
       },
     
   
