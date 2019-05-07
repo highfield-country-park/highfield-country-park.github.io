@@ -14,9 +14,9 @@ fields:
   description: A short summary of the post
   config:
     required: true
-- type: field_group_list
-  name: authors
-  label: Authors
+- type: field_group
+  name: event
+  label: Event Info
   description: The authors of this post
   hidden: false
   fields:
