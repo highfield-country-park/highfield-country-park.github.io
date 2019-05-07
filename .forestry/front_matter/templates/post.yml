@@ -47,12 +47,13 @@ fields:
     source:
       type: custom
     options:
-        - "Event"
-        - "News"
+    - Event
+    - News
 - type: tag_list
   name: tags
   label: Tags
   description: Provide tags for this post
-  hidden: [false]
+  hidden:
+  - false
 pages:
 - _posts/2018-08-22-hello-world.md
