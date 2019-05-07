@@ -14,10 +14,18 @@ fields:
   description: A short summary of the post
   config:
     required: true
-- type: date
+- type: text
   name: date
-  label: Title
+  label: Date of Event
   description: The date of the event (if its an event)
+- type: text
+  name: time
+  label: Time of Event
+  description: The time of the event (if its an event)
+- type: text
+  name: location
+  label: Location of Event
+  description: The location of the event (if its an event)
 - type: file
   name: feature_image
   label: Feature image
@@ -28,7 +36,7 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
-- type: tag_list
+- type: category_list
   name: categories
   label: Categories
   description: Add a category
