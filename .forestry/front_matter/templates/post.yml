@@ -17,7 +17,7 @@ fields:
 - type: field_group
   name: event
   label: Event Info
-  description: The authors of this post
+  description: Add the location, date and time for the event
   hidden: false
   fields:
   - type: datetime
@@ -30,7 +30,7 @@ fields:
     description: The location of the event (if its an event)
 - type: file
   name: feature_image
-  label: Feature image
+  label: Feature image - shown below post
 - type: textarea
   name: feature_text
   label: Feature text
