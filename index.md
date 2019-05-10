@@ -1,5 +1,5 @@
 ---
-title: Highfield Country Park: A Space for Nature in Levenshulme, Manchester
+title: Highfield Country Park - A Space for Nature in Levenshulme, Manchester
 layout: home
 ---
 

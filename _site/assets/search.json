@@ -28,7 +28,7 @@
     
       {
         "title": "Mid Event Post",
-        "excerpt": "A short summary of something\n",
+        "excerpt": "Strangest clams show us how radishes can be laborers. Some beaten cinemas are thought of simply as craftsmen. In ancient times an untrimmed patch is a trip of the mind. This is not to discredit the idea that the mine of a fiber becomes a mantic sailboat.\n\n",
         "content": "Strangest clams show us how radishes can be laborers. Some beaten cinemas are thought of simply as craftsmen. In ancient times an untrimmed patch is a trip of the mind. This is not to discredit the idea that the mine of a fiber becomes a mantic sailboat.\n\n\n",
         "url": "/event/2019/03/03/mid-event-post/"
       },
@@ -58,10 +58,24 @@
   },
   
   {
+    "title": "News and Events for Highfield Country Park",
+    "excerpt": "\n",
+    "content": "\n",
+    "url": "/events/"
+  },
+  
+  {
     "title": "Blog",
     "excerpt": "\n",
     "content": "\n",
     "url": "/blog/"
+  },
+  
+  {
+    "title": "Highfield Country Park - A Space for Nature in Levenshulme, Manchester",
+    "excerpt": "\n",
+    "content": "What is Highfield Country Park?\n\n  Highfield Country Park is a 70-acre (280,000 m2) area of open land, situated on the east side of Levenshulme, Manchester, that stretches to the east of Broom Avenue across to the rear of Reddish Golf Course and to the junction of Longford Road, Reddish and Nelstrop Road, Levenshulme.\n\n\n  Much of Highfield Country Park is not manicured, nature has some freedom to take it's own course. Although it is does not seem too large, if you take one of the many small paths you may suddenly find yourself wondering whether you are still in Manchester... in much of it, you can only see the trees and long grass. The roads and buildings are often hidden from view.\n\n  \n     Finding Highfield Country Park\n     More about the state and history of the park\n  \n\n\n",
+    "url": "/"
   },
   
   {
@@ -76,6 +90,13 @@
     "excerpt": "\n",
     "content": "\n",
     "url": "/news/"
+  },
+  
+  {
+    "title": "News and Events for Highfield Country Park",
+    "excerpt": "\n",
+    "content": "\n",
+    "url": "/posts/"
   },
   
   {

@@ -35,10 +35,8 @@
 </head>
 <!-- end of partials header -->
 
-
-
-<!-- map.twig -->
 <body>
+
 
     <header>
 
@@ -69,143 +67,87 @@
 </div>
 <!-- end of partials/linear-nav.twig -->
 
-
     </header>
-
     <main>
       <div class="text-content-outer-container">
         <div class="container">
           <div class="row">
             <div class="col-xs-10 col-xs-offset-1">
-              <div class="text-content">
-                <h1>404</h1>
-                <header class="header">
-  <div class="container">
-    <a class="logo" href="/">
-  <img src="https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=52" alt="My website logo"/>
-</a>
+              <div class="text-content listing">
 
-
-    
-<nav class="nav  nav--header">
-  <ul class="list  list--nav">
-    
-
-      
-
-      <li class="item  item--nav">
-        <a href="/">Home</a>
-      </li>
-    
-
-      
-
-      <li class="item  item--nav">
-        <a href="/about/">About</a>
-      </li>
-    
-
-      
-
-      <li class="item  item--nav">
-        <a href="/blog/">Blog</a>
-      </li>
-    
-  </ul>
-  <button class="button  button--nav" aria-label="Menu toggle">
-    <svg width="16" height="16" class="icon  icon--nav" role="img" alt="Menu"><title>Menu</title><use xlink:href="#nav" fill="CurrentColor"></use></svg>
-
-  </button>
-</nav>
-
-
-<script type="text/javascript">
-  // Get list and button
-  const navList = document.querySelector('.header .list--nav')
-  const button  = document.querySelector('.header .button--nav')
-
-  // Hide nav and apply toggle
-  const collapseNav = () => {
-    if (document.body.clientWidth < 640) {
-      navList.style.setProperty('--listHeight', `-${navList.offsetHeight}px`)
-    } else {
-      navList.removeAttribute('style')
-    }
-
-    button.onclick = () => {
-      navList.style.setProperty('transition', `margin .1s`)
-      if (navList.style.getPropertyValue('--listHeight')) {
-        navList.style.removeProperty('--listHeight')
-      } else {
-        navList.style.setProperty('--listHeight', `-${navList.offsetHeight}px`)
-      }
-    }
-  }
-
-  collapseNav()
-
-  // Check on resize if to collapse nav
-  window.addEventListener('resize', () => {
-    collapseNav()
-  })
-</script>
-
-  </div>
-
-  
+                <h1>Events</h1>
 
 
 
+                <div class="sort-filter">
+                  <strong>Filter: </strong>
+                  <span class="filter btn btn-default"><a href="/news/">News</a></span>
+                  <span class="filter btn btn-default"><a href="/posts/">All</a></span>
+                </div>
+
+               
+
+                
 
 
+                    <article class="teaser">
+                      <h3><a href="/event/2019/05/05/new-event-post/">New Event Post</a></h3>
+                      <p class="body-content">An introduction to this event</p>
+                      <span class="eyebrow"><label>Location:</label> Bowler St </span>
+                      <span class="eyebrow"><label>Time:</label> 11:20pm </span>
+                      <span class="eyebrow"><label>Date:</label> December  6, 2019</span>
+                      <span class="eyebrow"><label>Contact:</label> </span>
+                      <p><a href="/event/2019/05/05/new-event-post/">Read more</a></p>
+                    </article>
 
-</header>
-
-
-<main class="main  container">
-
-  <article class="article  article--page  content  typeset">
-
-    <h1>404</h1>
-
-    <p>Sorry, but the page could not be found.</p>
-
-
-  </article>
-
-  
-
-</main>
-
-<footer class="footer">
-  <div class="container">
-    <div class="copyright  typeset">
-      <small class="small">&copy; My website 2019</small>
-    </div>
-
-    
-<nav class="nav  nav--footer">
-  <ul class="list list--nav">
-    
-
-      
-
-      <li class="item  item--nav">
-        <a href="/#top">Back to top</a>
-      </li>
-    
-  </ul>
-</nav>
+                
 
 
-  </div>
-</footer>
+                    <article class="teaser">
+                      <h3><a href="/event/2019/03/03/mid-event-post/">Mid Event Post</a></h3>
+                      <p class="body-content">An introduction to this event</p>
+                      <span class="eyebrow"><label>Location:</label> Bowler St </span>
+                      <span class="eyebrow"><label>Time:</label> 10:20am </span>
+                      <span class="eyebrow"><label>Date:</label> March  3, 2019</span>
+                      <span class="eyebrow"><label>Contact:</label> alexjameslee@mykolab.com or 079626662762</span>
+                      <p><a href="/event/2019/03/03/mid-event-post/">Read more</a></p>
+                    </article>
 
+                
+
+
+                    <article class="teaser">
+                      <h3><a href="/event/2019/01/01/event-post/">Old Event Post</a></h3>
+                      <p class="body-content">An introduction to this event</p>
+                      <span class="eyebrow"><label>Location:</label> Bowler St </span>
+                      <span class="eyebrow"><label>Time:</label> 10:20am </span>
+                      <span class="eyebrow"><label>Date:</label> March  3, 2018</span>
+                      <span class="eyebrow"><label>Contact:</label> </span>
+                      <p><a href="/event/2019/01/01/event-post/">Read more</a></p>
+                    </article>
+
+                
+
+
+                    <article class="teaser">
+                      <h3><a href="/event/2018/08/22/hello-world/">Hello World Event</a></h3>
+                      <p class="body-content"></p>
+                      <span class="eyebrow"><label>Location:</label>  </span>
+                      <span class="eyebrow"><label>Time:</label>  </span>
+                      <span class="eyebrow"><label>Date:</label> </span>
+                      <span class="eyebrow"><label>Contact:</label> </span>
+                      <p><a href="/event/2018/08/22/hello-world/">Read more</a></p>
+                    </article>
+
+                
 
 
               </div>
             </div>
-         </div>
+
+          </div>
+        </div>
+
       </div>
     </main>
 
@@ -297,6 +239,7 @@
 
   <!-- end of partials/footer.twig -->
 
-</body>
 
+
+  </body>
 </html>

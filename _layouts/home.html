@@ -108,10 +108,10 @@
                     <header><h4>{{ post.title }}</h4></header>
                     <p class="body-content">{{ post.feature_text }}</p>
                     <span class="eyebrow"><label>Location:</label> <a href="https://www.openstreetmap.org/search?query=">{{ post.location }} </a></span>
-                    <span class="eyebrow"><label>Time:</label> {{ post.time }} </span>
-                    <span class="eyebrow"><label>Date:</label> DATE</span>
-                    <span class="eyebrow"><label>Contact:</label> CONTACT</span>
-                    <p class="body-content"><a href="news-and-events.html#content-volunteer-2019">Read more</a></p>
+                    <span class="eyebrow"><label>Time:</label> {{ post.event_datetime }} </span>
+                    <span class="eyebrow"><label>Date:</label> {{ post.event_datetime }}</span>
+                    <span class="eyebrow"><label>Contact:</label> {{ post.event_contact }}</span>
+                    <p class="body-content"><a href="{{ post.url }}">Read more</a></p>
                   </article>
                 {% endfor %}
 

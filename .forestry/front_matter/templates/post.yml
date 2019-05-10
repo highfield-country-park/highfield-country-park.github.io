@@ -33,6 +33,10 @@ fields:
   name: event_location
   label: Location of Event
   description: The location of the event (if its an event)
+- type: text
+  name: event_contact
+  label: Contact for Event
+  description: The contact information for the event (if its an event)
 - type: textarea
   name: feature_text
   label: Feature text

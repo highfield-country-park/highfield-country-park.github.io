@@ -1,4 +1,3 @@
-
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
@@ -36,7 +35,39 @@
 </head>
 <!-- end of partials header -->
 
+<body>
 
+
+    <header>
+
+    <!-- partials/linear-nav.twig -->
+<div class="intro-content">
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="linear-nav">
+        <div class="linear-nav-image col-xs-12 col-sm-4 chimney-image home">
+            <h3><a href="/" class="title-link">
+            <i class="fa fa-leaf title-icon"></i> Highfield Country Park</a></h3>
+        </div>
+        <div class="col-xs-3 col-sm-2 linear-nav-image path1-image">
+          <a href="/news-and-events"><div>News</div></a>
+        </div>
+        <div class="col-xs-3 col-sm-2 linear-nav-image path2-image">
+          <a href="/about"><div>About</div></a>
+        </div>
+        <div class="col-xs-3 col-sm-2 linear-nav-image path3-image">
+            <a href="/map"><div>Map</div></a>
+        </div>
+        <div class="col-xs-3 col-sm-2 linear-nav-image path4-image">
+          <a href="/volunteer" ><div>Volunteer</div></a>
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
+<!-- end of partials/linear-nav.twig -->
+
+    </header>
     <main>
       <div class="text-content-outer-container">
         <div class="container">
@@ -46,33 +77,25 @@
 
                 <h1>News and Events</h1>
 
-                
-                    <div class="categories-title"><a href="/tags/#Event">Event</a></div>
-                
-                    <div class="categories-title"><a href="/tags/#News">News</a></div>
-                
+
 
                 <div class="sort-filter">
-                  <span id="filter-news" class="filter btn btn-default">News</span>
-                  <span id="filter-events" class="filter btn btn-default">Events</span>
-                  <span id="filter-reset" class="filter btn btn-default">All</span>
+                  <strong>Filter: </strong>
+                  <span class="filter btn btn-default"><a href="/events/">Events</a></span>
+                  <span class="filter btn btn-default"><a href="/posts/">All</a></span>
                 </div>
 
+
                 
-                    <h3><a href="/event/2019/05/05/new-event-post/">New Event Post</a></h3>
-                    <p><small><strong>May  5, 2019</strong>. Event. </small></p>
+
                 
-                    <h3><a href="/event/2019/03/03/mid-event-post/">Mid Event Post</a></h3>
-                    <p><small><strong>March  3, 2019</strong>. Event. </small></p>
-                
-                    <h3><a href="/event/2019/01/01/event-post/">Old Event Post</a></h3>
-                    <p><small><strong>January  1, 2019</strong>. Event. </small></p>
-                
+
+                  <article class="teaser">
                     <h3><a href="/news/2019/01/01/news-post/">News Post</a></h3>
-                    <p><small><strong>January  1, 2019</strong>. News. </small></p>
-                
-                    <h3><a href="/event/2018/08/22/hello-world/">Hello World Event</a></h3>
-                    <p><small><strong>August 22, 2018</strong>. Event. </small></p>
+                    <p><small><strong>January  1, 2019</strong></small></p>
+                    <p class="body-content">An introduction to this Post</p>
+                    <p><a href="/news/2019/01/01/news-post/">Read more</a></p>
+                  </article>
                 
 
 
@@ -85,7 +108,7 @@
       </div>
     </main>
 
-    <!-- partials/footer.twig -->
+      <!-- partials/footer.twig -->
 <footer>
      <div class="footer" id="footer">
          <div class="container">
@@ -100,28 +123,28 @@
              <div class="row">
                  <div class="col-md-2 col-md-offset-1 col-xs-4">
                      <ul class="nav">
-                         <li> <a href="index.html"> Home </a> </li>
+                         <li> <a href="/"> Home </a> </li>
                      </ul>
                  </div>
                  <div class="col-md-2 col-xs-4">
                      <ul class="nav">
-                         <li> <a href="about.html"> About </a> </li>
+                         <li> <a href="/about"> About </a> </li>
                      </ul>
                  </div>
                  <div class="col-md-2 col-xs-4">
                      <ul class="nav">
-                         <li> <a href="volunteer.html" data-toggle="tooltip" data-placement="bottom"
+                         <li> <a href="/volunteer" data-toggle="tooltip" data-placement="bottom"
        title=""> Volunteering </a> </li>
                      </ul>
                  </div>
                  <div class="col-md-2 col-xs-6">
                      <ul class="nav">
-                         <li> <a href="news-and-events.html"> News</a> </li>
+                         <li> <a href="/news-and-events"> News</a> </li>
                      </ul>
                  </div>
                  <div class="col-md-3 col-xs-6">
                      <ul class="nav">
-                         <li> <a href="map.html"> Map </a> </li>
+                         <li> <a href="/map"> Map </a> </li>
                      </ul>
                  </div>
              </div>
@@ -156,21 +179,24 @@
 
 
   <!-- all pages -->
-  <script type="text/javascript" src="assets/js/vendor/leaflet/jquery.js"></script>
-  <script type="text/javascript" src="assets/js/vendor/bootstrap/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/assets/js/vendor/leaflet/jquery.js"></script>
+  <script type="text/javascript" src="/assets/js/vendor/bootstrap/bootstrap.min.js"></script>
 
   <!-- forms & validation -->
-  <script type="text/javascript" src="assets/js/vendor/bootstrap-validator/validator.js"></script>
+  <script type="text/javascript" src="/assets/js/vendor/bootstrap-validator/validator.js"></script>
 
 
-    <!-- lists -->
-    <script type="text/javascript" src="assets/js/vendor/listjs/list.min.js"></script>
+    <!-- OSMap -->
+    <link rel="stylesheet" type="text/css" href="/assets/js/vendor/leaflet/leaflet.css" />
+    <script type="text/javascript" src="/assets/js/vendor/leaflet/leaflet.js"></script>
 
 
   <!-- custom scripts - gulp js command combines all custom scripts into one -->
-  <script type="text/javascript" src="assets/js/scripts.js"></script>
+  <script type="text/javascript" src="/assets/js/scripts.js"></script>
 
   <!-- end of partials/footer.twig -->
+
+
 
   </body>
 </html>
