@@ -48,7 +48,6 @@ fields:
   name: Test
   label: Test
   description: Test
-
 pages:
 - _posts/2019-05-10-join-our-first-volunteering-saturday-session.md
 - _posts/2018-08-22-hello-world.md
