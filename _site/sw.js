@@ -1,8 +1,8 @@
-const version = '20190510125029';
+const version = '20190510140641';
 const cacheName = `static::${version}`;
 
 const buildContentBlob = () => {
-  return ["/event/2019/05/05/new-event-post/","/event/2019/03/03/mid-event-post/","/event/2019/01/01/event-post/","/news/2019/01/01/news-post/","/event/2018/08/22/hello-world/","/about/","/categories/","/events/","/blog/","/","/map/","/news/","/posts/","/volunteer/","/manifest.json","/assets/search.json","/assets/styles.css","/redirects.json","/sitemap.xml","/robots.txt","/feed.xml","https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=52", "/assets/default-offline-image.png", "/assets/scripts/fetch.js"
+  return ["/event/2019/05/05/new-event-post/","/event/2019/03/03/mid-event-post/","/event/2019/01/01/event-post/","/news/2019/01/01/news-post/","/event/2018/08/22/hello-world/","/about/","/categories/","/events/","/blog/","/","/map/","/news/","/posts/","/volunteer/","/manifest.json","/assets/search.json","/assets/styles.css","/redirects.json","/sitemap.xml","/robots.txt","/feed.xml","", "/assets/default-offline-image.png", "/assets/scripts/fetch.js"
   ]
 }
 
