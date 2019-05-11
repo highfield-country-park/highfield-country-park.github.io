@@ -19,8 +19,8 @@
 
                 <div class="sort-filter">
                   <strong>Filter: </strong>
-                  <span class="filter btn btn-default"><a href="/news/">News</a></span>
-                  <span class="filter btn btn-default"><a href="/posts/">All</a></span>
+                  <span class="filter btn btn-default"><a href="{{ site.baseurl }}/news/">News</a></span>
+                  <span class="filter btn btn-default"><a href="{{ site.baseurl }}/posts/">All</a></span>
                 </div>
 
                {% assign events = (site.posts | where: "category", "Event" | sort: "event_datetime") | reverse %}

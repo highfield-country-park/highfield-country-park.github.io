@@ -22,7 +22,7 @@ plugins:
 
 # Site settings
 url: 'http://highfieldcountrypark.org.uk/'
-baseurl: 'http://highfieldcountrypark.org.uk/hfcp-website'
+baseurl: '/hfcp-website'
 title: 'Highfield Country Park'
 description: 'A place for nature in Levenshulme, Manchester'
 permalink: pretty
