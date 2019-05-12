@@ -23,6 +23,6 @@ fields:
   label: Aside
   description: Show the sidebar / aside
 pages:
-- 404.md
-- about.md
 - index.md
+- about.md
+- 404.md
