@@ -78,29 +78,331 @@
           <div class="row">
             <div class="col-xs-10 col-xs-offset-1">
               <div class="text-content">
-                <h1>About</h1>
-                <p>Highfield Country Park is a 70-acre (280,000 m2) area of open land, situated on the east side of Levenshulme, Manchester, that stretches to the east of Broom Avenue across to the rear of Reddish Golf Course and to the junction of Longford Road, Reddish and Nelstrop Road, Levenshulme.</p>
+                <h1>Changes to the Website</h1>
+                <header class="header">
+  <div class="container">
+    
 
-<p>Prior to 2004, the park was jointly maintained by Manchester City Council and a group of volunteers called The Friends of Highfield Park. In July 2004 the park came to the attention of the Prudential Grass Roots campaign (run by the BTCV conservation charity). Over a 12-month period the park was transformed from a dreary, vandalised wasteland into a country park with a picnic area and mapped out country walks.</p>
+    
+  <nav class="nav">
+  <ul class="list list--nav">
+    
+      
+    
+      
+        <li class="item  item--nav">
 
-<p>In 2008 Highfield Country Park was designated a Local Nature Reserve, providing a protected habitat for many animal and plant species.</p>
+          
 
-<h2>History</h2>
+          
+            <a href="/hfcp-website/about/">About</a>
+          
+        </li>
+      
+    
+      
+        <li class="item  item--nav">
 
-<p>The land was used to extract clay for the manufacture of bricks for the building industry. The clay pit and brickworks existed at the start of the 20th century, and by the 1950s was being operated by the Jackson Brick Company.</p>
+          
 
-<p>In the 1970s, it was designated as a country park by the council, but at the time it was little more than a landfill site and sometime site of the UCP tripe factory, Levenshulme Dye and Bleach works, High Field Farm, and Jackson's brickworks. The latter's clay pit was much used by local children as a play area known as "The Brickie".</p>
+          
+            <a href="/hfcp-website/categories/">Categories</a>
+          
+        </li>
+      
+    
+      
+        <li class="item  item--nav">
 
-<p>The main road between Manchester and Stockport used to travel right next to the park, down Nelstrop Road. This road is hundreds of years old now. </p>
+          
 
-<p>Until recently, people used to live on the site of Highfield Country Park. However, the house on Nelstrop Road eventually was left abandoned, and was damaged by vandals that meant it had to be torn down for safety reasons.</p>
+          
+            <a href="/hfcp-website/events/">News and Events for Highfield Country Park</a>
+          
+        </li>
+      
+    
+      
+        <li class="item  item--nav">
 
-<p>In 2017, plans for redeveloping an area of Highfield Country Park were passed by Manchester Council. Friends of Highfield Country Park objected to this decision but were overruled.</p>
+          
 
-<p><br /></p>
-<p>Watch a lovely video recording of the park in Summer 2018:</p>
+          
+            
+            <a href="/hfcp-website/blog/"></a>
+          
+        </li>
+      
+    
+      
+        <li class="item  item--nav">
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/X79yDrslJbs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+          
+
+          
+            <a href="/hfcp-website/">Highfield Country Park - A Space for Nature in Levenshulme, Manchester</a>
+          
+        </li>
+      
+    
+      
+        <li class="item  item--nav">
+
+          
+
+          
+            <a href="/hfcp-website/map/">Map</a>
+          
+        </li>
+      
+    
+      
+        <li class="item  item--nav">
+
+          
+
+          
+            <a href="/hfcp-website/news/">News and Events for Highfield Country Park</a>
+          
+        </li>
+      
+    
+      
+        <li class="item  item--nav">
+
+          
+
+          
+            <a href="/hfcp-website/posts/">News and Events for Highfield Country Park</a>
+          
+        </li>
+      
+    
+      
+        <li class="item  item--nav">
+
+          
+
+          
+            <a href="/hfcp-website/volunteer/">About</a>
+          
+        </li>
+      
+    
+  </ul>
+</nav>
+
+
+
+<script type="text/javascript">
+  // Get list and button
+  const navList = document.querySelector('.header .list--nav')
+  const button  = document.querySelector('.header .button--nav')
+
+  // Hide nav and apply toggle
+  const collapseNav = () => {
+    if (document.body.clientWidth < 640) {
+      navList.style.setProperty('--listHeight', `-${navList.offsetHeight}px`)
+    } else {
+      navList.removeAttribute('style')
+    }
+
+    button.onclick = () => {
+      navList.style.setProperty('transition', `margin .1s`)
+      if (navList.style.getPropertyValue('--listHeight')) {
+        navList.style.removeProperty('--listHeight')
+      } else {
+        navList.style.setProperty('--listHeight', `-${navList.offsetHeight}px`)
+      }
+    }
+  }
+
+  collapseNav()
+
+  // Check on resize if to collapse nav
+  window.addEventListener('resize', () => {
+    collapseNav()
+  })
+</script>
+
+  </div>
+
+  
+
+
+
+
+  <div class="feature">
+    <div class="container  typeset">
+      
+
+    </div>
+  </div>
+
+
+
+</header>
+
+
+<main class="main  container">
+
+  <article class="article  article--post  content  typeset">
+
+    <h1>Changes to the Website</h1>
+    
+
+<small class="small  post-meta">
+  
+  
+    
+      <span class="label  label--category"><a href="/hfcp-website/categories/#event">Event</a></span>
+    
+  &nbsp;&middot;&nbsp;<time datetime="2019-05-12T00:00:00+01:00" class="time">12 May 2019</time>
+</small>
+
+    <p>You may not realise, but a lot of things have changed behind the scenes of this website!</p>
+
+<p>I created this website to promote a lovely but underappreciated park, which I think is my favourite park in Manchester. I love the absence of any over-zealous control, here is a place where nature is somewhat able to take its own course. However, I think it is undervalued even within Levenshulme, and so I thought a website would help to promote how great it is. Sadly, I will be leaving Levenshulme in Autumn, but excitingly I will be starting a PhD in Brighton on the relationship between communities and rewilding projects. So in the last few weeks I have been working behind the scenes to allow other people to edit this website. For anyone who is passionate about the park, there is a way to login and add posts and pictures - if you are interested, get in touch with Alec or Jane at the Friends of Highfield Country Park. You can use the form at the bottom of this page or on the /contact page.</p>
+
+<p>I hope since I have been involved with the park that more people are aware of it. I have helped to support Claire’s mindfulness sessions, which have introduced more people to the wildlife and to the benefits of being in nature, as well as helping promote Jane and Hayley’s forest schools. Hopefully in the future, more people will put on events. This website is here to help promote events, news and passion for the park so please keep on using this site after I am gone!</p>
+
+<p>- Alex</p>
+
+
+    <div class="share">
+  
+</div>
+
+
+    
+
+
+  </article>
+
+  
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="copyright  typeset">
+      <small class="small">&copy; Highfield Country Park 2019</small>
+    </div>
+
+    
+  <nav class="nav">
+  <ul class="list list--nav">
+    
+      
+    
+      
+        <li class="item  item--nav">
+
+          
+
+          
+            <a href="/hfcp-website/about/">About</a>
+          
+        </li>
+      
+    
+      
+        <li class="item  item--nav">
+
+          
+
+          
+            <a href="/hfcp-website/categories/">Categories</a>
+          
+        </li>
+      
+    
+      
+        <li class="item  item--nav">
+
+          
+
+          
+            <a href="/hfcp-website/events/">News and Events for Highfield Country Park</a>
+          
+        </li>
+      
+    
+      
+        <li class="item  item--nav">
+
+          
+
+          
+            
+            <a href="/hfcp-website/blog/"></a>
+          
+        </li>
+      
+    
+      
+        <li class="item  item--nav">
+
+          
+
+          
+            <a href="/hfcp-website/">Highfield Country Park - A Space for Nature in Levenshulme, Manchester</a>
+          
+        </li>
+      
+    
+      
+        <li class="item  item--nav">
+
+          
+
+          
+            <a href="/hfcp-website/map/">Map</a>
+          
+        </li>
+      
+    
+      
+        <li class="item  item--nav">
+
+          
+
+          
+            <a href="/hfcp-website/news/">News and Events for Highfield Country Park</a>
+          
+        </li>
+      
+    
+      
+        <li class="item  item--nav">
+
+          
+
+          
+            <a href="/hfcp-website/posts/">News and Events for Highfield Country Park</a>
+          
+        </li>
+      
+    
+      
+        <li class="item  item--nav">
+
+          
+
+          
+            <a href="/hfcp-website/volunteer/">About</a>
+          
+        </li>
+      
+    
+  </ul>
+</nav>
+
+
+
+  </div>
+</footer>
+
 
 
               </div>
