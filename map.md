@@ -22,3 +22,12 @@ The bus services to Levenshulme from Manchester and Stockport go up to 20 times 
 ## Car
 
 There are no dedicated car parks by Highfield Country Park, but many of the side streets have parking. Please be aware these are primarily for residents though! Tesco's in the centre of Levenshulme does have parking, which is about ten minutes walk from the park. The Tesco postcode is M19 3NN.
+
+
+{{% tip %}}
+
+<div class="col-xs-12">
+<div class="map" id="map" style="height:800px; width:100%;">
+</div>
+
+{{% /tip %}}
