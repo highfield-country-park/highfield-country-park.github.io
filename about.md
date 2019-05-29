@@ -18,10 +18,13 @@ The land was used to extract clay for the manufacture of bricks for the building
 
 In the 1970s, it was designated as a country park by the council, but at the time it was little more than a landfill site and sometime site of the UCP tripe factory, Levenshulme Dye and Bleach works, High Field Farm, and Jackson's brickworks. The latter's clay pit was much used by local children as a play area known as "The Brickie".
 
-The main road between Manchester and Stockport used to travel right next to the park, down Nelstrop Road. This road is hundreds of years old now. 
+The main road between Manchester and Stockport used to travel right next to the park, down Nelstrop Road. This road is hundreds of years old now.
 
 Until recently, people used to live on the site of Highfield Country Park. However, the house on Nelstrop Road eventually was left abandoned, and was damaged by vandals that meant it had to be torn down for safety reasons.
 
 In 2017, plans for redeveloping an area of Highfield Country Park were passed by Manchester Council. Friends of Highfield Country Park objected to this decision but were overruled.
 
 Watch a lovely video recording of the park in Summer 2018:
+
+
+{{% tip %}} <iframe width="560" height="315" src="https://www.youtube.com/embed/X79yDrslJbs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> {{% /tip %}}
