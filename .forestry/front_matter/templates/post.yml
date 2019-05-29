@@ -17,8 +17,8 @@ fields:
     source:
       type: custom
     options:
-    - Event
     - News
+    - Event
 - type: tag_list
   name: tags
   label: Tags
