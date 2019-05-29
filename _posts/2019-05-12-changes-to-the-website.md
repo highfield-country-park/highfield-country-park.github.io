@@ -1,6 +1,6 @@
 ---
 title: Changes to the Website
-categories: Event
+categories: News
 tags: []
 event_datetime: 
 event_location: ''
