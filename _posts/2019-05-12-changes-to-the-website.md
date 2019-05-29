@@ -1,5 +1,5 @@
 ---
-title: Goodbye from the Website Developer
+title: A Goodbye from Alex
 categories: News
 tags: []
 event_datetime: 
