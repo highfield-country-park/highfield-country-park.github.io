@@ -12,6 +12,10 @@ Prior to 2004, the park was jointly maintained by Manchester City Council and a 
 
 In 2008 Highfield Country Park was designated a Local Nature Reserve, providing a protected habitat for many animal and plant species.
 
+Our current Chair is Alex - aleccowan@hotmail.co.uk
+
+Our current secretary is Jane - janesebire@yahoo.co.uk
+
 ### History
 
 The land was used to extract clay for the manufacture of bricks for the building industry. The clay pit and brickworks existed at the start of the 20th century, and by the 1950s was being operated by the Jackson Brick Company.
@@ -25,6 +29,5 @@ Until recently, people used to live on the site of Highfield Country Park. Howev
 In 2017, plans for redeveloping an area of Highfield Country Park were passed by Manchester Council. Friends of Highfield Country Park objected to this decision but were overruled.
 
 Watch a lovely video recording of the park in Summer 2018:
-
 
 {{% tip %}} <iframe width="560" height="315" src="https://www.youtube.com/embed/X79yDrslJbs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> {{% /tip %}}
