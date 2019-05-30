@@ -1,6 +1,6 @@
 ---
 title: Forest Immersion - 1st June and 21st July
-categories: News
+categories: Event
 tags: []
 event_datetime: Saturday 1st June and Sunday 21st July 10-1pm
 event_location: Bowler St Entrance, Highfield Country Park, Levenshulme

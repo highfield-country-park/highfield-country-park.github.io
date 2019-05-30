@@ -1,12 +1,13 @@
 ---
-date: 2019-05-30 16:06:02 +0000
+date: 2019-05-30T16:06:02.000+00:00
 title: Park Management Plans
 categories: News
 tags: []
 event_datetime: ''
 event_location: ''
 event_contact: ''
-feature_text: ''
+feature_text: At the last couple of Friends group meetings, we have been making initial
+  discussions about having a management plan for the park.
 file: ''
 layout: default
 
