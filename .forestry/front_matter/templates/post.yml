@@ -44,10 +44,12 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-- type: image_gallery
-  name: Test
-  label: Test
-  description: Test
+- name: file
+  type: file
+  config:
+    maxSize: 250
+  label: File
+  description: File upload
 pages:
 - _posts/spring-equinox-mindfulness-session.md
 - _posts/2018-08-22-hello-world.md
