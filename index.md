@@ -15,3 +15,4 @@ layout: home
     <li><a href="about.html"> More about the state and history of the park</a></li>
   </ul>
 </div>
+<p>If you want us to post your story on the park or publicise your event, please contact us, you can see the <a href="{{ site.baseurl }}/about">About page</a> for contact info.</p>

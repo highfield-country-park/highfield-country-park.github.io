@@ -21,8 +21,6 @@
 
                 <h3>Latest Stories</h3>
 
-                <p>If you have a story to suggest, please fill out our <a href="https://goo.gl/forms/FBUFHyFhVACWiQlp2">Google form</a></p>
-
                 {% assign news = site.posts | where: "categories", "News" %}
 
                 {% for post in news limit:5 %}
@@ -40,9 +38,6 @@
               <div class="listing teasers second">
 
                 <h3>Upcoming Events</h3>
-
-                <p>If you are interested in putting an event on, please get in touch with us on Facebook or Twitter, or complete our <a href="/volunteer.html">Volunteering form</a>.</p>
-
 
                 {% assign events = site.posts | where: "categories", "Event" %}
 

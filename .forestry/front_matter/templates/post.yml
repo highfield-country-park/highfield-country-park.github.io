@@ -4,7 +4,7 @@ hide_body: false
 fields:
 - type: text
   name: layout
-  default: default
+  default: post
   hidden:
     - true
 - type: text

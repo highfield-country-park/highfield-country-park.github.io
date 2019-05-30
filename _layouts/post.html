@@ -1,0 +1,46 @@
+{% include header.html %}
+
+
+<!-- map.twig -->
+<body>
+
+    <header>
+
+    {% include linear-nav.html %}
+
+    </header>
+
+    <main>
+
+
+      <div class="text-content-outer-container">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-10 col-xs-offset-1">
+              <div class="text-content">
+
+                <small><p>{{ page.categories }}</p></small>
+                <h1>{{ page.title }}</h1>
+
+                {{ content }}
+
+                {% if page.event_location != blank %}
+                  <span class="eyebrow"><label>Location:</label> {{ page.event_location }} </span>
+                {% endif %}
+
+                {% if page.event_datetime != blank %}
+                  <span class="eyebrow"><label>Date:</label> {{ page.event_datetime }}</span>
+                {% endif %}
+                {% if page.event_contact != blank %}
+                  <span class="eyebrow"><label>Contact:</label> {{ page.event_contact }}</span>
+                {% endif %}
+              </div>
+            </div>
+         </div>
+      </div>
+    </main>
+
+    {% include footer.html %}
+</body>
+
+</html>

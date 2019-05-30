@@ -19,6 +19,7 @@ plugins:
 - jekyll-default-layout
 - jekyll-feed
 - jemoji
+- jekyll-twitter-plugin
 
 # Site settings
 url: 'http://highfieldcountrypark.org.uk/'

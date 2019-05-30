@@ -68,6 +68,7 @@ GEM
       jekyll (~> 3.3)
     jekyll-sitemap (0.13.0)
       jekyll (~> 3.3)
+    jekyll-twitter-plugin (2.0.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     jemoji (0.11.0)
@@ -106,6 +107,7 @@ PLATFORMS
 DEPENDENCIES
   alembic-jekyll-theme (~> 3.0.3)
   jekyll (~> 3.8)
+  jekyll-twitter-plugin (~> 2.0)
 
 BUNDLED WITH
    1.17.1
