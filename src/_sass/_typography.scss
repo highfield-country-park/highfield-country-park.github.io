@@ -1,7 +1,7 @@
 
 @import "variables.scss";
 
-p, .body-content, .eyebrow, article li, article {
+p, .body-content, .eyebrow, article li, article ul, .text-content, .text-content li, .text-content ul, .text-content span {
   font-family: $font-family-serif;
   color:$colour_second_light;
   line-height: 1.7em;

@@ -56,9 +56,8 @@
                   <article class="teaser">
                     <header><h4>{{ post.title }}</h4></header>
                     <p class="body-content">{{ post.feature_text }}</p>
-                    <span class="eyebrow"><label>Location:</label> <a href="https://www.openstreetmap.org/search?query=">{{ post.location }} </a></span>
-                    <span class="eyebrow"><label>Time:</label> {{ post.event_datetime }} </span>
-                    <span class="eyebrow"><label>Date:</label> {{ post.event_datetime }}</span>
+                    <span class="eyebrow"><label>Location:</label> {{ post.event_location }}</span>
+                    <span class="eyebrow"><label>Date and time:</label> {{ post.event_datetime }}</span>
                     <span class="eyebrow"><label>Contact:</label> {{ post.event_contact }}</span>
                     <p class="body-content"><a href="{{ site.baseurl }}{{ post.url }}">Read more</a></p>
                   </article>
