@@ -1,1 +1,1 @@
-Sitemap: http://localhost:4000/hfcp-website/sitemap.xml
+Sitemap: http://localhost:4000/hfcp-new-website/sitemap.xml

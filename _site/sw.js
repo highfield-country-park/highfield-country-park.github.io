@@ -1,8 +1,8 @@
-const version = '20190512122348';
+const version = '20190530170215';
 const cacheName = `static::${version}`;
 
 const buildContentBlob = () => {
-  return ["/event/2019/05/12/changes-to-the-website/","/event/2019/05/10/join-our-first-volunteering-saturday-session/","/event/2019/05/05/new-event-post/","/event/2019/03/03/mid-event-post/","/event/2019/01/01/event-post/","/news/2019/01/01/news-post/","/event/2018/08/22/hello-world/","/about/","/categories/","/events/","/blog/","/","/map/","/news/","/posts/","/volunteer/","/manifest.json","/assets/search.json","/assets/styles.css","/redirects.json","/sitemap.xml","/robots.txt","/feed.xml","", "/assets/default-offline-image.png", "/assets/scripts/fetch.js"
+  return ["/news/2019/05/30/forest-immersion-lets-learn-to-play-again/","/news/2019/05/29/changes-to-the-website/","/event/2019/03/20/join-our-first-volunteering-saturday-session/","/event/2019/03/19/spring-equinox-mindfulness-session/","/event/2018/12/01/night-time-mindfulness-starting-thursday-6th-december-2018/","/news/2018/11/06/new-development-to-be-resubmitted/","/news/2018/09/20/wild-awake-mindfulness-experience-blog-post/","/event/2018/08/23/art-in-the-park-tue-7th-august/","/event/2018/06/01/free-young-explorer-s-club-starting-summer-2018/","/event/2018/05/29/late-night-meditation-and-bedtime-stories-27th-june/","/about/","/events/","/blog/","/","/map/","/news/","/posts/","/volunteer/","/manifest.json","/assets/search.json","/assets/styles.css","/redirects.json","/sitemap.xml","/robots.txt","/feed.xml","", "/assets/default-offline-image.png", "/assets/scripts/fetch.js"
   ]
 }
 

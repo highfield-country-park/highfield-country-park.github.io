@@ -23,9 +23,7 @@
                   <span class="filter btn btn-default"><a href="{{ site.baseurl }}/posts/">All</a></span>
                 </div>
 
-                {% assign events = (site.posts | where: "category", "Event" ) %}
-
-                {% for post in events %}
+                {% for post in site.categories['Events'] %}
 
 
                     <article class="teaser">
