@@ -23,7 +23,7 @@
 
                 <p>If you have a story to suggest, please fill out our <a href="https://goo.gl/forms/FBUFHyFhVACWiQlp2">Google form</a></p>
 
-                {% assign news = site.posts | where: 'master', true | sort: 'date' | reverse %}
+                {% assign news = site.posts | where: "category", "News" %}
 
                 {% for post in site.categories['News'] limit:5 %}
                   <article class="teaser">
@@ -90,8 +90,7 @@
                 <p>If you are interested in putting an event on, please get in touch with us on Facebook or Twitter, or complete our <a href="/volunteer.html">Volunteering form</a>.</p>
 
 
-                {% assign events = (site.posts | where: "category", "Event" ) %}
-
+                {% assign events = site.posts | where: "category", "Event" %}
 
                 <!-- base event
                   <article class="teaser">
