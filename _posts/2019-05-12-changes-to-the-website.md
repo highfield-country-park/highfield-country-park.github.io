@@ -2,11 +2,13 @@
 title: A Goodbye from Alex
 categories: News
 tags: []
-event_datetime: 
+event_datetime: ''
 event_location: ''
 event_contact: ''
-feature_text: ''
+feature_text: 'Local volunteer web developer Alex reflects on his experiences, as
+  he plans his departure from Manchester for new adventures '
 Test: []
+file: ''
 
 ---
 You may not realise, but a lot of things have changed behind the scenes of this website!
