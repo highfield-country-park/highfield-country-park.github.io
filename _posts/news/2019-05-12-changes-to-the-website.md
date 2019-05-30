@@ -10,6 +10,7 @@ feature_text: 'Local volunteer web developer Alex reflects on his experiences, a
 Test: []
 file: ''
 date: 2019-05-28 23:00:00 +0000
+layout: default
 
 ---
 You may not realise, but a lot of things have changed behind the scenes of this website!

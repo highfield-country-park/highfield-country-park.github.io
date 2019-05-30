@@ -10,6 +10,7 @@ feature_text: Every Thursday morning throughout the school holidays, The Conserv
   Country Park.
 file: ''
 date: 2018-05-31 23:00:00 +0000
+layout: default
 
 ---
 Every Thursday morning throughout the school holidays, The Conservation Volunteers, will be running free natural play sessions for 8-12 year olds at Highfield Country Park.

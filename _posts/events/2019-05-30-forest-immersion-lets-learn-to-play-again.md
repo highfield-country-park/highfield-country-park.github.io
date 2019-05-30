@@ -9,6 +9,7 @@ feature_text: 'An opportunity for you to bring out your inner child and have som
   fun by immersing yourself in nature, play and mindfulness. '
 file: ''
 date: 2019-05-29 23:00:00 +0000
+layout: default
 
 ---
 It appears I have turned into a big kid and with as much big kid enthusiasm as I can muster (and I can muster quite a lot I am so excited!) I want to invite you to have **fun** (mindfully of course).

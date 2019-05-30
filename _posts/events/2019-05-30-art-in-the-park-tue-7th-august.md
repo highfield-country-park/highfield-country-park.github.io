@@ -9,6 +9,7 @@ feature_text: Creative fun in the park for all ages. The Owl and the Coconut wil
   be leading a session of mindfully creating art from objects you find in the park.
 file: ''
 date: 2018-08-22 23:00:00 +0000
+layout: default
 
 ---
 Creative fun in the park for all ages. The Owl and the Coconut will be leading a session of mindfully creating art from objects you find in the park. [View the poster](http://highfieldcountrypark.org.uk/hfcp-new-website/news-and-events.html#art-park-2018)

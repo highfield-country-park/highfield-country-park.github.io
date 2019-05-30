@@ -29,7 +29,7 @@
                   <article class="teaser">
                     <header><h4>{{ post.title }}</h4></header>
                     <p class="body-content">{{ post.feature_text }}</p>
-                    <p class="body-content"><a href="news-and-events.html#content-volunteer-2019">Read more</a></p>
+                    <p class="body-content"><a href="{{ site.baseurl }}{{ post.url }}">Read more</a></p>
                   </article>
                 {% endfor %}
 
@@ -65,7 +65,7 @@
                     <span class="eyebrow"><label>Time:</label> {{ post.event_datetime }} </span>
                     <span class="eyebrow"><label>Date:</label> {{ post.event_datetime }}</span>
                     <span class="eyebrow"><label>Contact:</label> {{ post.event_contact }}</span>
-                    <p class="body-content"><a href="{{ post.url }}">Read more</a></p>
+                    <p class="body-content"><a href="{{ site.baseurl }}{{ post.url }}">Read more</a></p>
                   </article>
                 {% endfor %}
 
