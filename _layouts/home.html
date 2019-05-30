@@ -33,7 +33,7 @@
                   </article>
                 {% endfor %}
 
-
+                <!--
                 <article class="teaser">
                   <header><h4>Volunteer Content Writer Wanted!</h4></header>
                   <p class="body-content">We are looking for local volunteers to come forward and support the park and this website by helping to write articles and take photos. <a href="news-and-events.html#content-volunteer-2019">Read more</a></p>
@@ -77,6 +77,7 @@
                   <header><h4>New Bins and a Bench</h4></header>
                   <p class="body-content">Two of our volunteers put in bins and a new bench to help improve the litter situation and give people a place to relax by the pond.<a href="news-and-events.html#bins-bench-oct-17">(Read more)</a></p>
                 </article>
+              -->
 
               </div>
             </div>
@@ -89,7 +90,7 @@
                 <p>If you are interested in putting an event on, please get in touch with us on Facebook or Twitter, or complete our <a href="/volunteer.html">Volunteering form</a>.</p>
 
 
-                {% assign events = (site.posts | where: "category", "Event" | sort: "event_datetime") | reverse %}
+                {% assign events = (site.posts | where: "category", "Event" ) %}
 
 
                 <!-- base event

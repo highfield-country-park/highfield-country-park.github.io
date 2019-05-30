@@ -23,7 +23,7 @@
                   <span class="filter btn btn-default"><a href="{{ site.baseurl }}/posts/">All</a></span>
                 </div>
 
-               {% assign events = (site.posts | where: "category", "Event" | sort: "event_datetime") | reverse %}
+               {% assign events = (site.posts | where: "category", "Event" ) %}
 
                 {% for post in events %}
 

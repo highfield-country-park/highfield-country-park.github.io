@@ -25,7 +25,7 @@ fields:
   description: Provide tags for this post
   hidden:
   - false
-- type: datetime
+- type: text
   name: event_datetime
   label: Date & Time of Event
   description: The date of the event (if its an event)
