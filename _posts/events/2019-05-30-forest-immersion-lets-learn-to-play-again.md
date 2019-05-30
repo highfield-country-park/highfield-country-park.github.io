@@ -1,6 +1,6 @@
 ---
 title: Forest Immersion - 1st June and 21st July
-categories: News
+categories: Event
 tags: []
 event_datetime: Saturday 1st June and Sunday 21st July 10-1pm
 event_location: Bowler St Entrance, Highfield Country Park, Levenshulme
@@ -8,7 +8,7 @@ event_contact: claire@wildawake-mindfulness.co.uk
 feature_text: 'An opportunity for you to bring out your inner child and have some
   fun by immersing yourself in nature, play and mindfulness. '
 file: ''
-date: 2019-05-29 23:00:00 +0000
+date: 2019-05-29T23:00:00.000+00:00
 
 ---
 It appears I have turned into a big kid and with as much big kid enthusiasm as I can muster (and I can muster quite a lot I am so excited!) I want to invite you to have **fun** (mindfully of course).
