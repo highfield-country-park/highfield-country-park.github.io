@@ -1,5 +1,5 @@
 ---
-title: Forest Immersion- Lets Learn to Play Again
+title: Forest Immersion - 1st June and 21st July
 categories: News
 tags: []
 event_datetime: Saturday 1st June and Sunday 21st July 10-1pm
