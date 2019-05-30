@@ -39,4 +39,9 @@ fields:
     maxSize: 250
   label: File
   description: File upload
+- name: test
+  type: text
+  config:
+    required: false
+  label: test
 pages:
