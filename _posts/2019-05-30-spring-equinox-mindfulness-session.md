@@ -2,7 +2,7 @@
 title: Spring Equinox Mindfulness Session
 categories: Event
 tags: []
-event_datetime: 2019-03-23T11:00:00.000+00:00
+event_datetime: ''
 event_location: Meet at Bowler St entrance to the park
 event_contact: Claire at claire@wildawake-mindfulness.co.uk or 07990 974462
 feature_text: Get closer to nature in a special mindfulness session for Spring Equinox
