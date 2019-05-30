@@ -1,4 +1,4 @@
 ---
-title: News and Events for Highfield Country Park
+title: Events for Highfield Country Park
 layout: events
 ---
