@@ -9,7 +9,7 @@ feature_text: 'Local volunteer web developer Alex reflects on his experiences, a
   he plans his departure from Manchester for new adventures '
 Test: []
 file: ''
-date: 2019-06-04 23:00:00 +0000
+date: 2019-05-28 23:00:00 +0000
 
 ---
 You may not realise, but a lot of things have changed behind the scenes of this website!
