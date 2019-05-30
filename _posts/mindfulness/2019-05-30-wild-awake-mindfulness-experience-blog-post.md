@@ -7,6 +7,7 @@ event_location: ''
 event_contact: ''
 feature_text: ''
 file: ''
+date: 2018-09-19 23:00:00 +0000
 
 ---
 ### 
