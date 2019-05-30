@@ -60,3 +60,5 @@ fields:
     time_format: 
     display_utc: false
   default: now
+pages:
+- _posts/news/park-management-plans.md
