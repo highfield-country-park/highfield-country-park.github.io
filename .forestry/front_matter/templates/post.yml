@@ -22,6 +22,7 @@ fields:
     source:
       type: custom
     options:
+    -
     - News
     - Event
 - type: tag_list
