@@ -6,7 +6,8 @@ fields:
   name: layout
   default: post
   hidden:
-    - true
+  - true
+  label: Layout
 - type: text
   name: title
   label: Title
@@ -62,7 +63,9 @@ fields:
   description: Date this post was published
   config:
     required: false
-    date_format:
-    time_format:
+    date_format: 
+    time_format: 
     display_utc: false
   default: now
+pages:
+- _posts/news/development-at-cringle-road-rejected-again.md
