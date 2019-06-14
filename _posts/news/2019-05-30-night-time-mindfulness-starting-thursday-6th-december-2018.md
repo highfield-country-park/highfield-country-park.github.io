@@ -8,7 +8,7 @@ event_contact: claire@wildawake-mindfulness.co.uk
 feature_text: Discover the sounds and spirit of the park at night with evening Winter
   meditation.Beginners welcome, no experience needed!
 file: ''
-date: 2018-12-01 00:00:00 +0000
+date: '2018-12-01T00:00:00.000+00:00'
 layout: post
 
 ---
