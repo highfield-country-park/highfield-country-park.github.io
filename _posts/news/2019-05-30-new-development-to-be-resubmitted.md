@@ -8,7 +8,7 @@ event_contact: ''
 feature_text: The developers have notified the Friends group that they are preparing
   to submit another application in 2019 for 57 homes on Cringle Road.
 file: ''
-date: 2018-11-06 00:00:00 +0000
+date: 2018-11-06T00:00:00.000+00:00
 layout: post
 
 ---
