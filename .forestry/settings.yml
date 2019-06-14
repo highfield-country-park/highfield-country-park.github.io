@@ -14,6 +14,11 @@ sections:
   templates:
   - post
 - type: directory
+  path: _posts/news
+  label: News
+  create: all
+  match: "**/*"
+- type: directory
   path: _posts/events
   label: Events
   create: all
