@@ -15,6 +15,16 @@ fields:
   description: The title
   config:
     required: true
+- name: date
+  type: datetime
+  label: Date
+  description: Date this post was published
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
 - type: select
   name: categories
   label: Categories
@@ -57,13 +67,3 @@ fields:
     maxSize: 250
   label: File
   description: File upload
-- name: date
-  type: datetime
-  label: Date
-  description: Date this post was published
-  config:
-    required: false
-    date_format: 
-    time_format: 
-    display_utc: false
-  default: now
