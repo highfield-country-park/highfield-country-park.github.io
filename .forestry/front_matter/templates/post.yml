@@ -57,4 +57,5 @@ fields:
   label: File
   description: File upload
 pages:
+- _posts/news/2019-05-30-park-management-plans.md
 - _posts/news/2019-06-01-development-at-cringle-road-rejected-again.md
