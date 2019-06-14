@@ -4,6 +4,12 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: jekyll-posts
+  label: Posts
+  create: all
+  match: "**/*"
+  templates:
+  - post
 - type: jekyll-pages
   label: Pages
   create: all
