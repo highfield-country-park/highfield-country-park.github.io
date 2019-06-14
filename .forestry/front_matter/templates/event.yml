@@ -25,7 +25,7 @@ fields:
 - type: text
   name: event_contact
   label: Contact for Event
-  description: The contact information for the event (if its an event)
+  description: The contact information for the event
 - type: textarea
   name: feature_text
   label: Feature text
