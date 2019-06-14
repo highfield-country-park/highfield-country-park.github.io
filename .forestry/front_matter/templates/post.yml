@@ -65,6 +65,6 @@ fields:
 - name: file
   type: file
   config:
-    maxSize: 250
+    maxSize: '5'
   label: File
   description: File upload
