@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2019-06-01 08:00:36 +0000
+date: 2019-06-01T08:00:36.000+00:00
 title: Development at Cringle Road Rejected Again
 categories: News
 tags: []

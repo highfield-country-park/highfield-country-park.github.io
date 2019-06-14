@@ -56,3 +56,5 @@ fields:
     maxSize: '5'
   label: File
   description: File upload
+pages:
+- _posts/news/2019-06-01-development-at-cringle-road-rejected-again.md
