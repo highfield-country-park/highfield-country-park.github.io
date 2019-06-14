@@ -17,11 +17,11 @@ fields:
 - type: text
   name: event_datetime
   label: Date & Time of Event
-  description: The date of the event (if its an event)
+  description: The date of the event
 - type: text
   name: event_location
   label: Location of Event
-  description: The location of the event (if its an event)
+  description: The location of the event
 - type: text
   name: event_contact
   label: Contact for Event
