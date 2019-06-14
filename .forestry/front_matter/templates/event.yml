@@ -44,5 +44,3 @@ fields:
   config:
     required: false
   label: test
-pages:
-- _posts/Mindfulness/2019-05-30-wild-awake-mindfulness-experience-blog-post.md

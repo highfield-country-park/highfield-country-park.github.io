@@ -23,7 +23,6 @@ fields:
     source:
       type: custom
     options:
-    -
     - News
     - Event
 - type: tag_list
@@ -67,5 +66,3 @@ fields:
     time_format: 
     display_utc: false
   default: now
-pages:
-- _posts/news/development-at-cringle-road-rejected-again.md
