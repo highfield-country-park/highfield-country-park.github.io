@@ -24,10 +24,10 @@ I have reposted the information from [Operation Turtle Dove](https://www.operati
 
 If you see one, please log a sighting at [https://www.bto.org/our-science/projects/birdtrack/about](https://www.bto.org/our-science/projects/birdtrack/about "https://www.bto.org/our-science/projects/birdtrack/about")
 
-Turtle Dove
+**Turtle Dove**
 
-![](/uploads/European_Turtle_Dove_(Streptopelia_turtur).jpg)
+![](/uploads/European_Turtle_Dove_(Streptopelia_turtur)-1.jpg)
 
-Collared Dove
+**Collared Dove**
 
-![](/uploads/Eurasian_collared-dove_(Streptopelia_decaocto).jpg)
+![](/uploads/Eurasian_collared-dove_(Streptopelia_decaocto)-1.jpg)
