@@ -9,7 +9,7 @@ feature_text: There are reports of turtle doves on the park - do you know how to
 file: ''
 
 ---
-There have been a couple of people saying that there have been turtle doves on the park. This would be big news if true! Turtle doves used be very common in the UK, but due to the modern farming practices and land management, have become so rare that some believe they are heading for extinction in the UK. So please help out by looking our for turtle doves when you go to the park. 
+There have been a couple of people saying that there have been turtle doves on the park. This would be big news if true! Turtle doves used be very common in the UK, but due to the modern farming practices and land management, have become so rare that some believe they are heading for extinction in the UK. So please help out by looking our for turtle doves when you go to the park.
 
 I have reposted the information from [Operation Turtle Dove](https://www.operationturtledove.org/see-a-turtle-dove/identification/) below on how to identify them:
 
@@ -28,6 +28,6 @@ Turtle Dove
 
 ![](/uploads/European_Turtle_Dove_(Streptopelia_turtur).jpg)
 
-![](/uploads/Eurasian_collared-dove_(Streptopelia_decaocto).jpg)
-
 Collared Dove
+
+![](/uploads/Eurasian_collared-dove_(Streptopelia_decaocto).jpg)
