@@ -6,7 +6,7 @@ categories: News
 tags: []
 feature_text: How many trees can you identify in the park? Use this infographic while
   walking around the park to see what you can find!
-file: ''
+file: "/uploads/leaf-identification-uk-1.jpeg"
 
 ---
 How many trees can you identify in the park? Use this infographic while walking around the park to see what you can find!
