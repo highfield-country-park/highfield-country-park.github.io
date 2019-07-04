@@ -35,7 +35,7 @@
                   <span class="eyebrow"><label>Contact:</label> {{ page.event_contact }}</span>
                 {% endif %}
                 {% if page.file != blank %}
-                  <span class="eyebrow"><label>Download file:</label><a href="{{ site.baseurl}}{{ page.file }}">{{ page.file }}</a></span>
+                  <span class="eyebrow"><label>Download file:</label><a href="{{ site.baseurl}}{{ page.file }}" download>{{ page.file }}</a></span>
                 {% endif %}
               </div>
             </div>
