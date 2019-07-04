@@ -14,6 +14,13 @@ h1.title {
   color:$colour_white;
   font-weight: $font_weight_bold;
 }
+.text-content h1.article-title {
+  font-size: 10vw;
+
+  @media (min-width: $screen-sm) {
+    font-size: 2em;
+  }
+}
 
 h2 {
   color:$colour_second;
@@ -25,6 +32,10 @@ article header h3 {
 
 article.teaser header {
   color:$colour_main;
+}
+
+.linear-nav a {
+  word-break: break-all;
 }
 
 .call-to-action {

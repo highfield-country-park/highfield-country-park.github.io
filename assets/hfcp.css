@@ -27994,31 +27994,43 @@ h1.title {
   color: #FFF;
   font-weight: 700; }
 
-/* line 18, src/_sass/_typography.scss */
+/* line 17, src/_sass/_typography.scss */
+.text-content h1.article-title {
+  font-size: 10vw; }
+  @media (min-width: 768px) {
+    /* line 17, src/_sass/_typography.scss */
+    .text-content h1.article-title {
+      font-size: 2em; } }
+
+/* line 25, src/_sass/_typography.scss */
 h2 {
   color: #49281F; }
 
-/* line 21, src/_sass/_typography.scss */
+/* line 28, src/_sass/_typography.scss */
 article header h3 {
   color: #758918;
   text-shadow: 0px 0px 1px #eeeeee; }
 
-/* line 26, src/_sass/_typography.scss */
+/* line 33, src/_sass/_typography.scss */
 article.teaser header {
   color: #758918; }
 
-/* line 30, src/_sass/_typography.scss */
+/* line 37, src/_sass/_typography.scss */
+.linear-nav a {
+  word-break: break-all; }
+
+/* line 41, src/_sass/_typography.scss */
 .call-to-action {
   display: block;
   color: #FFF;
   text-align: center;
   padding-bottom: 12px; }
 
-/* line 40, src/_sass/_typography.scss */
+/* line 51, src/_sass/_typography.scss */
 .eyebrow label {
   color: #758918; }
 
-/* line 44, src/_sass/_typography.scss */
+/* line 55, src/_sass/_typography.scss */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   /* display: none; <- Crashes Chrome on hover */
@@ -40728,5 +40740,9 @@ html {
   background-color: #758918;
   background-image: url("/assets/images//foggy-birds.png");
   background-attachment: fixed; }
+
+/* line 138, src/_sass/_media.scss */
+.text-content img {
+  max-width: 100%; }
 
 /*# sourceMappingURL=../../sass */

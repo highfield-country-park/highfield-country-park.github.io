@@ -134,3 +134,7 @@ html {
   background-image: url($imagepath + "/foggy-birds.png");
   background-attachment: fixed;
 }
+
+.text-content img {
+  max-width: 100%;
+}
