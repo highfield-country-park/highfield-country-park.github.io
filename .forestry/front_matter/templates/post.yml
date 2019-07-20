@@ -57,6 +57,7 @@ fields:
   label: File
   description: File upload
 pages:
+- _posts/events/come-and-volunteer-in-your-local-park.md
 - _posts/2019-07-08-meeting-minutes-may-2019.md
 - _posts/news/infographic-for-common-trees-identification.md
 - _posts/news/are-turtle-doves-on-the-park.md

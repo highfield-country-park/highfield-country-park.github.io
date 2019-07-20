@@ -8,6 +8,20 @@ fields:
   description: A brief description
   config:
     required: true
+- type: file
+  name: feature_image
+  label: Feature image
+- type: textarea
+  name: feature_text
+  label: Feature text
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: boolean
+  name: aside
+  label: Aside
+  description: Show the sidebar / aside
 pages:
 - about.md
 - 404.md
