@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Volunteering
+published: false
 
 ---
 Friends of Highfield Country Park are looking to create regular volunteering sessions. There are committed individuals who are already helping on their own, but we would like to organise times for people to help out together to create a more social and communal activities! There are lots of ways that you can help:
